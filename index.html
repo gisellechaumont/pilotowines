@@ -8,6 +8,9 @@
 		 <meta http-equiv="X-UA-Compatible" content="IE=edge">
          <meta name="viewport" content="width=device-width, initial-scale=1">
 		 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		
 
@@ -16,17 +19,32 @@
 	<body>
 
 	<!-- NAVBAR -->
-<nav class="navbar navbar-expand-xl bg-dark navbar-dark">
-  <a class="navbar-brand" href="#"><img class="avatar" src="images/pilotoletras.png" /></a>
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active text-white" href="#" >Nosotros <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link text-muted" href="#">Viñedos</a>
-      <a class="nav-item nav-link text-muted" href="#">Nuestro vino</a>
-      <a class="nav-item nav-link text-muted" href="#">Historia</a>
-    </div>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Brand -->
+<a class="navbar-brand" href="#"><img class="avatar" src="images/pilotoletras.png" /></a>
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Viñedos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Nuestros Vinos</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Historia</a>
+      </li>
+    </ul>
   </div>
 </nav>
-
     <!-- BANNER -->
 	<div id="banner"> <h1> Piloto de Prueba</h1>
 	<p>Amigos haciendo vino en Cafayate</p>
