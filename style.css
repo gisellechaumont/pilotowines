@@ -29,9 +29,8 @@ a:hover {
 
 #banner{
   text-align: center;
-  background-image: url("https://1.bp.blogspot.com/-sez7-oL5LJI/Xxo-_qesRqI/AAAAAAABFCk/BztEub-wslAfN8w1sEI-cjadIHlGVxOSQCLcBGAsYHQ/s1024/pilotocielo.jpg");
   background-size: cover;
-      background-position: left;
+  background-position: left;
   padding: 150px;
   color: white;
   text-shadow: 1px 1px 5px black;
@@ -46,6 +45,35 @@ a:hover {
   font-size: 30px;
   font-weight: lighter;
 
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+	text-align: center;
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.btn {
+	text-align: center
+	justify-content: center;
 }
 
 .card {
