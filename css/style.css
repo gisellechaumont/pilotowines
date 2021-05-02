@@ -1,0 +1,122 @@
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.navbar {
+    background-color: black;
+}
+
+.avatar {
+    width: 90px;
+    border-radius: 50%;
+    
+}
+
+
+
+.banner img{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.card-body {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.container-fluid {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel {
+    width: 100%;
+    overflow: scroll;
+    padding: 30px;
+    position: relative;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+    }
+
+
+  .carousel__container {
+    white-space: nowrap;
+    margin: 70px 0px;
+    margin-bottom: 30vh;
+    padding-bottom: 20vh; 
+  }
+  .carousel-item {
+    background-color: palevioletred;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 450ms all;
+    transform-origin: center left;
+  }
+  .carousel-item:hover ~ .carousel-item {
+    transform: translate3d(100px, 0, 0);
+  }
+  .carousel__container:hover .carousel-item {
+    opacity: 0.3;
+  }
+  .carousel__container:hover .carousel-item:hover {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+
+  .carousel-item__img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+  }
+
+
+.card-body img{
+    max-width: 70vh;
+    object-position: center;
+
+}
+
+
+
+
+
+  .footer {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 50px;
+    color: white;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+.footer-links a {
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+}
+.footer-links a:hover {
+    opacity: 1;
+}
+.footer .fa-heart {
+    color: #D23333;
+}
