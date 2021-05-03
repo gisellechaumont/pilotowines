@@ -6,10 +6,14 @@ body {
 }
 
 .header {
-    background: url(https://1.bp.blogspot.com/-UxEsAcz049M/YIS3raxJIHI/AAAAAAABO8E/7Yg05MdF4LsbKmlwrW6X3HKEvFw4Kp1QQCLcBGAsYHQ/s16000/HEADER%2BESTRELLAS.png) no-repeat center;
+    background: url(https://1.bp.blogspot.com/-zetzYZTZTDg/YJB5FIt_meI/AAAAAAABPRg/QwUl5erB_AwSdUMarwhTrYs400D5SlWAgCLcBGAsYHQ/s16000/header.png) no-repeat center;
     background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    display: block;
     min-height: 100vh;
   }
+
 
 .avatar {
     width: 90px;
@@ -20,7 +24,7 @@ body {
 
 
 .card-body {
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -43,7 +47,7 @@ body {
 
   .carousel__container {
     white-space: nowrap;
-    margin: 70px 0px;
+    margin: 40px 0px;
     margin-bottom: 30vh;
     padding-bottom: 20vh; 
   }
@@ -79,17 +83,15 @@ body {
 
 
 .card-body img{
-    max-width: 70vh;
+    max-width: 65vh;
     box-sizing: border-box;
     object-position: center;
 
 }
 
 .card {
-    box-sizing: border-box;
-    object-position: center;
+    width: 100vh;
 }
-
 
 
 
